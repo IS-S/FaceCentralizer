@@ -12,7 +12,7 @@ namespace FC.Core
 
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {
-                using (Pen pen = new Pen(Color.Red, 3))
+                using (Pen pen = new Pen(Color.Red,10))
                 {
                     graphics.DrawRectangle(pen, face);
 
