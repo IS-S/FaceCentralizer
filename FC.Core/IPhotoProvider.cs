@@ -8,5 +8,6 @@ namespace FC.Core
         public byte[] Get(string path);
         public Bitmap GetBitmap(string path);
         public void Post(Bitmap imageDataBig, Bitmap imageDataSmall, string path);
+        public void Post(Bitmap imageDataSmall, string path, int count);
     }
 }

@@ -42,6 +42,7 @@ namespace FC.Core
 
             _facedrawertest.Draw(bitmap, face);
 
+
 #pragma warning disable CA1416 // Validate platform compatibility
             var result = _photocropper.Crop(bitmap, face);
 

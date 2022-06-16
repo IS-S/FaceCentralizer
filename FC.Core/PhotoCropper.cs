@@ -48,9 +48,12 @@ namespace FC.Core
 
             Rectangle toCrop = new Rectangle(newRectX, newRectY, side, side);
 
+//            var rotate = bitmap.PropertyItems;
+
             bitmap = bitmap.Clone(toCrop, bitmap.PixelFormat);
 
-            Bitmap bitmapBig = new Bitmap(bitmap, new Size(144, 144));
+
+            Bitmap bitmapBig = new Bitmap(bitmap,new Size(144,144));
             Bitmap bitmapSmall = new Bitmap(bitmap, new Size(48, 48));
 
 
